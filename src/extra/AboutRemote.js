@@ -4,7 +4,7 @@ import kunal from "../images/kunal.jpeg"
 import raj from "../images/raj.jpeg"
 import bantu from "../images/bantu.jpeg"
 import azad from "../images/azad.jpeg"
-
+import harshil from "../images/harshil.jpeg"
 function AboutRemote() {
   return (
     <div>
@@ -78,6 +78,20 @@ function AboutRemote() {
                 <div className="card-body">
                   <div className="text-center ">
                   <p style={{color:"black"}}>Rajput Azad Singh</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6 col-xl-2">
+              <div className="card">
+                <img
+                  className="card-img-top img-fluid"
+                  src={harshil}
+                  alt="Portfolio1"
+                />
+                <div className="card-body">
+                  <div className="text-center ">
+                  <p style={{color:"black"}}>Harshil Dave</p>
                   </div>
                 </div>
               </div>
