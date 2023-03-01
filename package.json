@@ -28,7 +28,14 @@
     ]
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.11",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "express": "^4.17.3",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.8.2",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.2",
