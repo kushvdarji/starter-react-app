@@ -7,13 +7,33 @@ function Home() {
         <>
             <div className="article">
                 <img src={gender} alt="..." className="image"></img>
-                <h1 className="header">Lorem ipsum</h1>
+                <h1 className="header">Gender Equality Website Launch
+</h1>
             </div>
+            <div className="welcome">
+                <h1 style={{fontSize:"80px"}}>Welcome to our Gender Equality website!</h1></div>
             <div className="text1">
-                <h1>Darji Kush is a Good Boy</h1>
+                
+            <br/>
+
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
+                We are committed to promoting gender equality and empowering individuals of all genders. Our goal is to create a world where everyone has the same opportunities and rights, regardless of their gender.
+
+On our website, you will find a wide range of resources and information related to gender equality. Here are some of the key features of our site:
+<br></br>
+<br/>
+<span style={{color:"black"}}>About Us:</span> Learn more about our organization and our mission to promote gender equality.
+<br/>
+<br/>
+<span style={{color:"black"}}>News and Updates:</span> Stay up-to-date on the latest news, research, and initiatives related to gender equality.
+
+Resources: Access a variety of resources, including toolkits, guides, and educational materials, that can help you better understand and promote gender equality.
+<br/><br/>
+<span style={{color:"black"}}>Take Action:</span> Find out how you can get involved and take action to promote gender equality in your community and beyond.
+<br/><br/>
+<span style={{color:"black"}}>Get Help:</span> If you or someone you know is experiencing gender-based discrimination or violence, find resources and support services that can help.
+
+We believe that gender equality is not just a women's issue - it's everyone's issue. By working together and promoting equality and inclusion, we can create a better future for all. Thank you for visiting our website, and we hope you find the information and resources you need to join us in this important mission                </p>
             </div>
             <div className="below">
                
