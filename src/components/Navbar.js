@@ -18,10 +18,10 @@ const Navbar = () => {
                     </h2>
                 </div>
                 <ul className= {showMediaIcons ? "menu-link mobile-menu-link": "menu-link"}>
-                    <li className="link"><NavLink to="/">Home</NavLink></li>
-                    <li className="link"><NavLink to="/about">About</NavLink></li>
-                    <li className="link"><NavLink to="/contact">Contact</NavLink></li>
-                    <li className="link"><NavLink to="/donate">Donate</NavLink></li>
+                    <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/">Home</NavLink></li>
+                    <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/about">About</NavLink></li>
+                    <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/contact">Contact</NavLink></li>
+                    <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/donate">Donate</NavLink></li>
                 </ul>
                 <div className="social-media">
                     <ul className="social-media-desktop">
