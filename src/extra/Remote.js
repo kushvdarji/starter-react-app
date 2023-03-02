@@ -10,7 +10,7 @@ function Remote() {
     <>
       <div className="container-fluid pb-3">
       <h1 className="text-center">Areas Of Impact</h1>
-        <div className="card below">
+        <div className="carded below">
           <div className="row">
             <div className="col-sm-6 col-xl-3">
               <div className="card">

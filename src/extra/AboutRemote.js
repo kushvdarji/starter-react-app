@@ -10,7 +10,7 @@ function AboutRemote() {
     <div>
        <div className="container-fluid below pb-3 ">
       <h1 className="text-center">Meet Our Team</h1>
-        <div className="card below">
+        <div className="carded below">
           <div className="row">
             <div className="col-sm-6 col-xl-2">
               <div className="card">
@@ -21,7 +21,7 @@ function AboutRemote() {
                 />
                 <div className="card-body">
                   <div className="text-center ">
-                    <p style={{color:"black"}}>Darji Kush</p>
+                    <p style={{color:"black",fontSize:"20px",fontWeight:"bolder"}}>Darji Kush</p>
                   </div>
                 </div>
               </div>
@@ -35,7 +35,7 @@ function AboutRemote() {
                 />
                 <div className="card-body">
                   <div className="text-center ">
-                  <p style={{color:"black"}}>Kunal Chudasama</p>
+                  <p style={{color:"black",fontSize:"20px",fontWeight:"bolder"}}>Kunal Chudasama</p>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ function AboutRemote() {
                 />
                 <div className="card-body">
                   <div className="text-center ">
-                  <p style={{color:"black"}}>Raj Bhatt</p>
+                  <p style={{color:"black",fontSize:"20px",fontWeight:"bolder"}}>Raj Bhatt</p>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function AboutRemote() {
                 />
                 <div className="card-body">
                   <div className="text-center ">
-                  <p style={{color:"black"}}>Harsh Bantuya</p>
+                  <p style={{color:"black",fontSize:"20px",fontWeight:"bolder"}}>Harsh Bantuya</p>
                   </div>
                 </div>
               </div>
@@ -77,7 +77,7 @@ function AboutRemote() {
                 />
                 <div className="card-body">
                   <div className="text-center ">
-                  <p style={{color:"black"}}>Rajput Azad Singh</p>
+                  <p style={{color:"black",fontSize:"20px",fontWeight:"bolder"}}>Rajput Azad Singh</p>
                   </div>
                 </div>
               </div>
@@ -91,7 +91,7 @@ function AboutRemote() {
                 />
                 <div className="card-body">
                   <div className="text-center ">
-                  <p style={{color:"black"}}>Harshil Dave</p>
+                  <p style={{color:"black",fontSize:"20px",fontWeight:"bolder"}}>Harshil Dave</p>
                   </div>
                 </div>
               </div>

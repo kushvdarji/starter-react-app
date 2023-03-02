@@ -58,6 +58,11 @@ li {
 .social-media {
   grid-column: 4/5;
 }
+.vipul:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
 
 .social-media ul {
   height: 10rem;
