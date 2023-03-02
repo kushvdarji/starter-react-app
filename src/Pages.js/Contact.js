@@ -96,7 +96,7 @@ function Contact() {
 
             <div style={{ display: "flex", justifyContent: "center" }}>
               <button
-              // type="button"
+              type="submit"
                 id="btn2"
                 style={{ backgroundColor: "BLACK", color: "white" }}
                 className="btn btn-dark"
