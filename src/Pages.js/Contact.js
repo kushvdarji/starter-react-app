@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import Axios from "axios";
+import "../App.css"
 function Contact() {
   const[name,setName]=useState("");
   const[email,setEmail]=useState("");
