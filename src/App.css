@@ -98,8 +98,8 @@ color: aliceblue;
   bottom: 0;
   left: 0;
   right: 0;
-  height: fit-content;
-  margin: auto;
+  /* height: fit-content;
+  margin: auto; */
 }
 .text1about{
   color: black;
