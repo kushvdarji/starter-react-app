@@ -12,13 +12,15 @@ const Navbar = () => {
 
             <nav className="main-nav">
                 <div className="logo">
+                <img src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...WDrRJPnx3OwXs1M3EMoAJtlicqjvBi8Pk+" style={{width:"120px",height:"50px"}}/>
+
                     <h2>
                         <span>G</span>ender &nbsp;
                         <span>E</span>quality
                     </h2>
                 </div>
                 <ul className= {showMediaIcons ? "menu-link mobile-menu-link": "menu-link"}>
-                    <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/">Home</NavLink></li>
+                    <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/" >Home</NavLink></li>
                     <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/about">About</NavLink></li>
                     <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/contact">Contact</NavLink></li>
                     <li className="link" onClick={()=>setShowMediaIcons(!showMediaIcons)}><NavLink to="/donate">Donate</NavLink></li>

@@ -39,7 +39,7 @@ li {
 }
 
 .logo {
-  display: grid;
+  display: flex;
   /* background-color: #3b5998; */
   grid-column: 2/3;
   justify-content: start;
@@ -99,7 +99,7 @@ li {
 }
 
 .logo h2 span {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
 }
 
 .link{
