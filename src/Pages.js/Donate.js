@@ -7,9 +7,9 @@ function Donate() {
     return (
         <div>
            <h1 style={{textAlign:"center",fontWeight:"bolder",fontSize:"50px",marginTop:"10px",backgroundColor:"lightgray"}}> How wonderful it is that nobody needed to wait a single moment before starting to improve the world.</h1>
-            <h2 style={{textAlign:"center",fontWeight:"bold",marginTop:"30px"}}>Currently, millions of children around the world are growing up in the midst of a deadly epidemic. Save the Children is there to protect children all over the world on the frontlines, but only with the support of donors like you. Save the Children is there to protect children all over the world on the frontlines, but only with the support of donors like you. If you live in Houston and want to help others, check out our donation center in Houston.
+            <h2 style={{textAlign:"center",fontWeight:"bold",marginTop:"30px"}}>Currently, millions of children around the world are growing up in the midst of a deadly epidemic. Save the Children is there to protect children all over the world on the frontlines, but only with the support of donors like you. Save the Children is there to protect children all over the world on the frontlines, but only with the support of donors like you. If you live in <b style={{fontWeight:"bolder"}}><u>INDIA</u></b>  and want to help others, check out our donation center in Our Website Of <b style={{fontWeight:"bolder"}}><u>INDIA</u></b>.And Please don't compare them through their <b>GENDER</b> . 
 
-                By donating to kids in need, you are making a difference that is desperately needed right now</h2>
+                By donating to kids in need, you are making a difference that is desperately needed right now in the World</h2>
             <Modal
                 size="sm"
                 isOpen={modal}
