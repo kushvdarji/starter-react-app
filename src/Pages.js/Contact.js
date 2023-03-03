@@ -27,7 +27,18 @@ function Contact() {
       Phone:phone,
       Disc:disc,
     }).then((response)=>{
-      console.log(response);
+      if (response.data.status = 200) {
+        console.log(response);
+        setName("");
+        setDisc("");
+        setEmail("");
+        setPhone("");
+        alert("Contacted Successfully")
+      } else if(response.data.status=400){
+        alert("Please Enter Valid Details");
+      }else{
+        alert("Hello")
+      }
     });
     setName("");
     setDisc("");
