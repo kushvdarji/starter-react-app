@@ -40,6 +40,10 @@
   margin: auto;
   margin-top: 10px;
 }
+.abovetext1{
+  background-color: lightgray;
+
+}
 .text1{
   text-align: center;
   margin: auto;
@@ -94,12 +98,14 @@ color: aliceblue;
 .article1{
   height: 100%;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; 
 }
 .header1{
   /* font-size: 30px; */
-  color: red;
-  text-align: center;
+  background: -webkit-linear-gradient( orangered,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-align: center;
   position: absolute;
   top:0px;
   bottom: 0;
@@ -109,11 +115,13 @@ color: aliceblue;
   margin: auto; */
 }
 .text1about{
-  color: black;
+  background: -webkit-linear-gradient( orangered,white,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   position: absolute;
   width: 80%;
-  font-size: 19px;
+  font-size: 30px;
   font-weight: bolder;
   top: 30%;
   bottom: 0;
@@ -123,6 +131,9 @@ color: aliceblue;
   margin: auto;
 }
 .belowimage{
+  background: -webkit-linear-gradient( black,gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   margin: auto;
   width: 90%;

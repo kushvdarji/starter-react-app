@@ -12,6 +12,7 @@ function Home() {
             </div>
             <div className="welcome">
                 <h1 style={{ fontSize: "70px" }} data-aos="fade-in">Welcome to our Gender Equality website!</h1></div>
+                <div className="abovetext1">
             <div className="text1">
 
                 <br />
@@ -39,6 +40,7 @@ function Home() {
                     <span style={{ color: "black" }}>Get Help:</span> If you or someone you know is experiencing gender-based discrimination or violence, find resources and support services that can help.
 
                     We believe that gender equality is not just a women's issue - it's everyone's issue. By working together and promoting equality and inclusion, we can create a better future for all. Thank you for visiting our website, and we hope you find the information and resources you need to join us in this important mission               </p>
+            </div>
             </div>
             <div className="below">
 

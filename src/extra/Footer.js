@@ -12,13 +12,13 @@ function Footer() {
                 About GenderEquality
               </h3>
               <p>
-                Catalog-Z is free
-                
-                  Bootstrap 5
-                
-                Alpha 2 HTML Template for video and photo websites. You can
-                freely use this TemplateMo layout for a front-end integration
-                with any kind of CMS website.
+              Spread the Awareness Around The  World! Help us build a global movement for change.
+              Take The Initiative For The Global Change In The World.
+              The Initiative Would Be Always By A Single Person But As The Awareness Would Be Given To All There Would Be Multiple Nos. Person Standing With You.
+              <br></br>
+              So Please Be Supportive And Help Us To Change The Mindset Of The People For The Genders In The World.
+              <br/>
+              So Please Follow And Subscribe Us. So That We Would Never Lose The Hope For These Global Cause.
               </p>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
@@ -27,24 +27,24 @@ function Footer() {
               </h3>
               <ul className="tm-footer-links pl-0">
                 <li>
-                  <a href="asdad">Advertise</a>
+                  <a href="#" style={{color:"black"}}>Home</a>
                 </li>
                 <li>
-                  <a href="sadasd">Support</a>
+                  <a href="#" style={{color:"black"}}>About Us</a>
                 </li>
                 <li>
-                  <a href="asdasd">Our Company</a>
+                  <a href="#" style={{color:"black"}}>Contact</a>
                 </li>
                 <li>
-                  <a href="asdasd">Contact</a>
+                  <a href="#" style={{color:"black"}}>Donate</a>
                 </li>
               </ul>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
-              <ul className="tm-social-links d-flex justify-content-end pl-0 mb-5">
+              <ul className="tm-social-links d-flex justify-content-end pl-0 mb-5 ">
                 <li className="mb-2">
                   <a href="https://facebook.com">
-                    <i className="fab fa-facebook"></i>
+                    <i className="fab fa-facebook "></i>
                   </a>
                 </li>
                 <li className="mb-2">
@@ -59,32 +59,21 @@ function Footer() {
                 </li>
                 <li className="mb-2">
                   <a href="https://pinterest.com">
-                    <i className="fab fa-pinterest"></i>
+                    <i className="fab fa-youtube"></i>
                   </a>
                 </li>
               </ul>
-              <a href="sadasd" className="tm-text-gray text-right d-block mb-2">
+              <a href="#" className="tm-text-gray text-right d-block mb-2">
                 Terms of Use
               </a>
-              <a href="sadasd" className="tm-text-gray text-right d-block">
+              <a href="#" className="tm-text-gray text-right d-block">
                 Privacy Policy
               </a>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-8 col-md-7 col-12 px-5 mb-3">
-              Copyright @2023 Darji Kush. All rights reserved.
-            </div>
-            <div className="col-lg-4 col-md-5 col-12 px-5 text-right">
-              Designed by{" "}
-              <a
-                href="https://templatemo.com"
-                className="tm-text-gray"
-                rel="sponsored"
-                target="_parent"
-              >
-                TemplateMo
-              </a>
+              Copyright @2023 SilverOak University. All rights reserved.
             </div>
           </div>
         </div>
