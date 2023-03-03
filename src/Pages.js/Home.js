@@ -25,19 +25,19 @@ function Home() {
                 <br/>
                 {/* <br /> */}
                 <p data-aos="fade-up">
-                    <span style={{ color: "black" }}>About Us:</span> Learn more about our organization and our mission to promote gender equality.</p>
+                    <span style={{ color: "black",fontWeight:"bolder" }}><u>About Us:</u></span> Learn more about our organization and our mission to promote gender equality.</p>
                 <br />
                 {/* <br /> */}
                 <p data-aos="fade-up">
-                    <span style={{ color: "black" }}>News and Updates:</span> Stay up-to-date on the latest news, research, and initiatives related to gender equality.
+                    <span style={{ color: "black",fontWeight:"bolder" }}><u>News and Updates:</u></span> Stay up-to-date on the latest news, research, and initiatives related to gender equality.
 
                     Resources: Access a variety of resources, including toolkits, guides, and educational materials, that can help you better understand and promote gender equality.</p>
                 <br />
                 <p data-aos="fade-up">
-                    <span style={{ color: "black" }}>Take Action:</span> Find out how you can get involved and take action to promote gender equality in your community and beyond.</p>
+                    <span style={{ color: "black",fontWeight:"bolder" }}><u>Take Action:</u></span> Find out how you can get involved and take action to promote gender equality in your community and beyond.</p>
                 <br />
                 <p data-aos="fade-up">
-                    <span style={{ color: "black" }}>Get Help:</span> If you or someone you know is experiencing gender-based discrimination or violence, find resources and support services that can help.
+                    <span style={{ color: "black",fontWeight:"bolder" }}><u>Get Help:</u></span> If you or someone you know is experiencing gender-based discrimination or violence, find resources and support services that can help.
 
                     We believe that gender equality is not just a women's issue - it's everyone's issue. By working together and promoting equality and inclusion, we can create a better future for all. Thank you for visiting our website, and we hope you find the information and resources you need to join us in this important mission               </p>
             </div>
