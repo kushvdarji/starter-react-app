@@ -36,6 +36,7 @@
     "express": "^4.17.3",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.2",
+    "reactstrap": "^9.1.6",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
