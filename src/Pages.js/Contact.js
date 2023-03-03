@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import Axios from "axios";
-import "../App.css"
+import "../App.css";
 function Contact() {
   const[name,setName]=useState("");
   const[email,setEmail]=useState("");
@@ -27,25 +27,32 @@ function Contact() {
       Phone:phone,
       Disc:disc,
     }).then((response)=>{
-      if (response.data.status = 200) {
+      if(response.data.status=200){
         console.log(response);
+        alert("You Have Submitted Successfully")
         setName("");
         setDisc("");
         setEmail("");
         setPhone("");
-        alert("Contacted Successfully")
-      } else if(response.data.status=400){
-        alert("Please Enter Valid Details");
       }else{
-        alert("Hello")
+        console.log(response)
       }
+    },(err)=>{
+      alert("Please Enter Valid Details")
+ if(err.response.data.Email){
+          console.log(err.response.data.Email)
+        }else if(err.response.data.Phone){
+          console.log(err.response.data.Phone)
+        }else if(err.response.data.Name){
+          console.log(err.response.data.Name)
+        }else{
+          console.log("Something Went Wrong")
+        }
     });
-    setName("");
-    setDisc("");
-    setEmail("");
-    setPhone("");
 
   }
+  const downkey = ["e", "E", "+", "-", "."];
+
   return (
     <>
       <div className="flex2">
@@ -90,6 +97,8 @@ function Contact() {
                 name="Phone"
                 value={phone}
                 onChange={(e)=>handlePhone(e)}
+                onKeyDown={(e) => downkey.includes(e.key) && e.preventDefault()}
+
               />
               <label id="lab3" style={{ color: "black" }}>
                 Phone
@@ -108,7 +117,7 @@ function Contact() {
 
             <div style={{ display: "flex", justifyContent: "center" }}>
               <button
-              // type="submit"
+              type="button"
                 id="btn2"
                 style={{ backgroundColor: "BLACK", color: "white" }}
                 className="btn btn-dark"

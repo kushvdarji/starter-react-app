@@ -73,7 +73,7 @@ function Footer() {
           </div>
           <div className="row">
             <div className="col-lg-8 col-md-7 col-12 px-5 mb-3">
-              Copyright @2023 SilverOak University. All rights reserved.
+              Copyright @2023 Gender Equality. All rights reserved.
             </div>
           </div>
         </div>
